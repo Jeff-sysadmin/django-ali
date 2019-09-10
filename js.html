@@ -1,0 +1,14 @@
+<input type="button" onclick="show()" value="SHOW">
+<div id="numbers"> <div>
+<script>
+let elem='';
+show=()=>{
+elem=document.getElemenById('numbers');
+  for(i=1; i<=100; i++){
+      if(i%2==1){
+       elem.innerHtml=elem.innerHtml+i'<br>';
+      }
+  }
+}
+
+</script>
